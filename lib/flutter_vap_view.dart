@@ -46,7 +46,7 @@ class FlutterVapView extends StatefulWidget {
   final VapScaleType scaleType;
 
   // 用于PlatformView创建完成后的回调
-  final Function? onCreateView;
+  final VoidCallback? onCreateView;
 
   @override
   State<FlutterVapView> createState() => _FlutterVapViewState();
